@@ -31,7 +31,24 @@ in this module: we will learn about:
 
 **What is Data Analytics?**
 
+Virtually organizations collect large quantities of data about its customers, products, employees and service offerings.
+Managers seek to analyze that data and harness the information it contains to improve the efficiency, effectiveness and profitability of their work.
 
+The role of a data analyst is to transform raw data into actionable insights that guide decision-making processes within an organization. It involves several key responsibilities and skills.
+
+1. Data Collection and Preparation
+
+   * Sourcing data from various channels, including databases, spreadsheets and external sources.
+  
+   * Cleaning and organization the data to ensure it is accurate, consistent and ready for analysis.
+
+2. Data Analysis
+
+ * Employing statistical methods, machine learning techniques or other analytical tools to interpret data.
+
+ * Identifying trends, patterns and correlations that might not be immediately obvious.
+
+   
 
 **Chapter 2:** Understanding data
 
