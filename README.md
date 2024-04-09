@@ -111,6 +111,14 @@ The vast amount of data creates a huge opportunity for data analytics to extract
 
 3. **Computing Power**
 
+how Moore's Law and advancements in data storage have revolutionized data analytics.
+
+Moore's Law: Predicted doubling of computing power every two years, making it cheaper and more accessible.
+Increased Storage Availability: Data can now be stored cheaply, allowing for vast amounts to be retained for analysis.
+Cloud Computing: Provides access to immense computing power on-demand and at low cost.
+These factors combined create a perfect environment for data analytics to flourish.
+
+
 # Chapter 2: Understanding data
 
 # Module 2: Data Preparation and Exploration
