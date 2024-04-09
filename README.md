@@ -77,7 +77,19 @@ The role of a data analyst is to transform raw data into actionable insights tha
   
 By fulfilling these roles, a data analyst helps an organization make informed decisions that can improve operational efficiencies, drive business strategies and create a competitive advantage. The goal is to have a hand in the organization's success by turning data into a valuable asset that informs and drives decision-making.
 
+Data analyst is used to predict future sales or purchasing behaviours, to help and protect against fraud, analyze effectiveness of campaigns, boost customer acquisition and retention
 
+5 steps a data analyst would take when approaching a project:
+
+1. Define questions. take a problem to formulate a hypothesis.
+
+2. Collect data from primary sources or internal, secondary or external sources.
+
+3. Clean the data and prepare it for analysis.
+
+4. Analyze the data: regression, cluster and time analysis.
+
+5. interpret and share results
 
 **Chapter 2:** Understanding data
 
