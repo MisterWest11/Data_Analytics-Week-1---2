@@ -170,6 +170,19 @@ Deep Learning - is a further subdivision of ML that uses quite compled technique
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/5a5e784b-7c0e-48fd-8961-c91c94b3d38d)
 
+***Data Governance***
+
+Data governance programs ensure that the organization has high-quality data and is able to effectively control that data.
+
+***Analytics Tools***
+
+Software helps analysts work through each one of the phases of the analytics process. These tools automate much of the heavy lifting of data analysis, improving the analyst's ability to acquire, clean, manipulate, visualize and analyze data. Providing invaluable assistance in reporting and communicating results.
+
+# Chapter Summary
+
+Analytics allow businesses to access the untapped value locked within their data. Organizations recognize the potential value of this work but are still in early stages of developing their analytical programs. These programs (driven by availability of data, rapid decrease in cost of storage and maturation of cloud computing) promise to create significant opportunities for businesses and in turn for data professionals skilled in tools and techniques of analytics.
+
+As analysts develop analytic work products, they generally move through a series of stages. The work begins with the acquisition of data from internal and external sources and conitnues with the cleaning and manipulation of that data. Once the data is in a suitable form, data professionals apply analytic techniques to draw up conclusions from their data, create visualizations to depict the story of their data and develop reports and dashboards to effectively communicate the results of their work to business leaders.
 
 # Chapter 2: Understanding data
 
