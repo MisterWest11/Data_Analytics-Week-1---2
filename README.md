@@ -26,9 +26,10 @@ in this module: we will learn about:
 
 4. Role of data governance
 
+
 **Chapter 1:** The Data Analyst
 
-
+*What is Data Analytics?*
 
 **Chapter 2:** Understanding data
 
