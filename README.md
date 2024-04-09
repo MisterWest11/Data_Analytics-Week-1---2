@@ -10,9 +10,9 @@ Data analytics is a subject that transcends industry boundaries with skills like
 
 It is vital to recognize that the domain of data analytics can be branched into 2 primary components:
 
-***conceptual understanding of data(theoretical aspect)***
+****conceptual understanding of data(theoretical aspect)****
 
-***hands-on manipulation of data(practical aspect)***
+****hands-on manipulation of data(practical aspect)****
 
 Both components can operate independently but the aim is to extract actionable insights and valuable information from data. Achieved through many ways, be it coding, low-code platforms or no-code solutions.
 
@@ -28,7 +28,7 @@ in this module: we will learn about:
 
 
 
-**Chapter 1:** The Data Analyst
+# Chapter 1: The Data Analyst
 
 
 **What is Data Analytics?**
@@ -91,7 +91,27 @@ Data analyst is used to predict future sales or purchasing behaviours, to help a
 
 5. interpret and share results
 
-**Chapter 2:** Understanding data
+
+***World of Analytics***
+
+Three major pillars that allow analytics programs to thrive
+
+1. **Data**
+
+In 2010, the total data stored was estimated at 5 exabytes.
+Today, data is created daily at a rate exceeding the total information existing in 2010.
+By 2025, the data generated is projected to reach 200 zettabytes (vastly exceeding earlier estimates).
+The example of WhatsApp messages highlights this growth - daily messages would create a paper stack reaching over a million kilometers high annually.
+The vast amount of data creates a huge opportunity for data analytics to extract valuable insights.
+
+2. **Storage**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/1e177b8c-7dbb-4e34-9a86-dfbc02c48d8a)
+
+
+3. **Computing Power**
+
+# Chapter 2: Understanding data
 
 # Module 2: Data Preparation and Exploration
 
