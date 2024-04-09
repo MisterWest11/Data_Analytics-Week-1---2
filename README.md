@@ -129,6 +129,39 @@ Analysts working with data move through a series of different steps as they seek
 
 Data Acquisition >>> Cleaning & Manipulation >>> Analysis >>> Visualization >>> Reporting & Communication.
 
+***Analytics Process is Iterative***
+
+Analyzing data is similar to working on a puzzle, You dont have to follow the steps in a strict order. An analyst reviewing a visualization may notice unusual data points that do not seem to belong in the dataset, causing them to return to the data cleaning stage and rerun their analysis with newly cleaned dataset. Similarly to an analyst running an analysis might discover that their analysis would be enriched by adding another source of data, causing them to return to the data acquisiton stage.
+
+This process is meant to help you understand the different activities that take place during a data analysis effort and the approximate order in which they typically occur.
+
+***Analytics Techniques***
+
+Analysts use a variety of techniques to come to conclusions from the data at their disposal. To understand the purpose of different types of analysis, they are grouped into categories based on the purpose of the analysis and nature of tool.
+
+  * Descriptive Analytics
+
+  * Predictive Analytics
+
+  * Prescriptive Analytics
+
+
+***Machine Learning, Artificial Intelligence and Deep Learning***
+
+Machine Learning uses algorithms to discover knowledge in your datasets that you can then apply to help you make informed decisions about the future. 
+
+Machine Learning commony adds value:
+
+  * Segmented customers and determing the marketing messages that will appeal to different customer groups.
+
+  * Discovering anomalies in system and application logs that may be indicative of cybersecurity incident.
+
+  * Forecasting product sales based on market and environmental conditions.
+
+  * Recommending the next movie that a customer might wish to watch based on their past activity and preference of similar customers.
+
+  * Setting prices for hotel rooms far in advance based on forecasted demand.
+
 # Chapter 2: Understanding data
 
 # Module 2: Data Preparation and Exploration
