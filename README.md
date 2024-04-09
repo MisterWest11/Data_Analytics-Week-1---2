@@ -36,19 +36,33 @@ Managers seek to analyze that data and harness the information it contains to im
 
 The role of a data analyst is to transform raw data into actionable insights that guide decision-making processes within an organization. It involves several key responsibilities and skills.
 
-1. Data Collection and Preparation
+1. **Data Collection and Preparation:**
 
    * Sourcing data from various channels, including databases, spreadsheets and external sources.
   
    * Cleaning and organization the data to ensure it is accurate, consistent and ready for analysis.
 
-2. Data Analysis
+2. **Data Analysis:**
 
    * Employing statistical methods, machine learning techniques or other analytical tools to interpret data.
 
    * Identifying trends, patterns and correlations that might not be immediately obvious.
 
+3. **Data Visualization and Storytelling:**
    
+   * Creating visual representations of data such as graphs, charts and dashboards to make the complex information easily understandable.
+  
+   * Articulating findings in a compelling narrative to communicate the significance of data to stakeholders.
+     
+4. **Decision Support:**
+
+   * Making recommendations based on data-driven insights to help guide business decisions.
+  
+   * Providing context around data including potential implications and future trends.
+
+5. **Collaboration and Communication:**
+
+   * Working closely with other departments 
 
 **Chapter 2:** Understanding data
 
