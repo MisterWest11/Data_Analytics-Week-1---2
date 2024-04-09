@@ -4,7 +4,21 @@
 
 # Module 1: The Basics of Data
 
+Introduction
+
+Data analytics is a subject that transcends industry boundaries with skills like Machine Learning, Data Visualization and narrative crafting are no longer exclusive to data scientists and analysts.
+
+It is vital to recognize that the domain of data analytics can be branched into 2 primary components:
+
+**conceptual understanding of data(theoretical aspect)**
+**hands-on manipulation of data(practical aspect)**
+
+Both components can operate independently but the aim is to extract actionable insights and valuable information from data. Achieved through many ways, be it coding, low-code platforms or no-code solutions.
+
+
 *Chapter 1:* The Data Analyst
+
+
 
 *Chapter 2:* Understanding data
 
@@ -25,3 +39,5 @@
 # Module 4: Data Governance
 
 *Chapter 8:* Defining Data Governance
+
+
