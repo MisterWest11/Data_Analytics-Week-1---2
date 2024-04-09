@@ -44,9 +44,9 @@ The role of a data analyst is to transform raw data into actionable insights tha
 
 2. Data Analysis
 
- * Employing statistical methods, machine learning techniques or other analytical tools to interpret data.
+   * Employing statistical methods, machine learning techniques or other analytical tools to interpret data.
 
- * Identifying trends, patterns and correlations that might not be immediately obvious.
+   * Identifying trends, patterns and correlations that might not be immediately obvious.
 
    
 
