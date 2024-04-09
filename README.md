@@ -118,6 +118,16 @@ Increased Storage Availability: Data can now be stored cheaply, allowing for vas
 Cloud Computing: Provides access to immense computing power on-demand and at low cost.
 These factors combined create a perfect environment for data analytics to flourish.
 
+***Careers in Analytics***
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/13fbaf5b-0fd0-4c80-a2f1-192baaffd5ce)
+
+
+***Analytics Process***
+
+Analysts working with data move through a series of different steps as they seek to gain business value from their organization's data.
+
+Data Acquisition >>> Cleaning & Manipulation >>> Analysis >>> Visualization >>> Reporting & Communication.
 
 # Chapter 2: Understanding data
 
