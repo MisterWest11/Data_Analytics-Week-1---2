@@ -162,6 +162,15 @@ Machine Learning commony adds value:
 
   * Setting prices for hotel rooms far in advance based on forecasted demand.
 
+Artificial Intelligence - includes any type of technique where you are attempting to get a computer system to imitate human behaviour. AI tries to mimic small portions of human behaviour and judgement.
+
+Machine Learning - is a subset of AI techniques. ML techniques attempts to apply statistics to data problems in an effort to discover new knowledge. (ML techniques are AI techniques designed to learn)
+
+Deep Learning - is a further subdivision of ML that uses quite compled techniques, known as neural networks, to discover knowledge in a particular way. It is a highly specialized subfield of ML that is most commonly used for image, video and sound analysis.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/5a5e784b-7c0e-48fd-8961-c91c94b3d38d)
+
+
 # Chapter 2: Understanding data
 
 # Module 2: Data Preparation and Exploration
