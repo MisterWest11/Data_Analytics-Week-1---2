@@ -212,6 +212,21 @@ This is data organized in a table, made up of rows and columns. It represents in
 Each row represents a record of a single instance of the table's topic. 
 
 Spreadsheets including Microsoft Excel, Google Sheets and Apple Numbers are practical tools for representing tabular data. A relational database management system (database) extends the tabular model. Instead of having all data in a single table, a database organizes related data across multiple tables. The connection between tables is known as a relationship. Oracle, Microsoft SQL Server, MySQL and PostgreSQL are examples of database software.
+
+***Structured Data Types***
+
+Structured data is tabular in nature and organized into rows and columns.
+
+**Character**
+
+this data type limits data entry to only valid characters.Characters can include the alphabet that you might see on your keyboard, as well as numbers. Depending on your needs, multiple data types are available that can enforce character limits.
+
+**Alphanumeric**
+
+most widely used data type for storing character-based data. Alphanumeric is appropriate when a data element consists of both numbers and letters.  e.g an address of a place.
+
+It is ideal for storing product stock-keeping units(SKUs).
+
 # Module 2: Data Preparation and Exploration
 
 *Chapter 3:* Databases and Data Acquisition
