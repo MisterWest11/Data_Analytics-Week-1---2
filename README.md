@@ -4,7 +4,7 @@
 
 # Module 1: The Basics of Data
 
-*Introduction*
+# Introduction Chapter 1
 
 Data analytics is a subject that transcends industry boundaries with skills like Machine Learning, Data Visualization and narrative crafting are no longer exclusive to data scientists and analysts.
 
@@ -185,6 +185,31 @@ Analytics allow businesses to access the untapped value locked within their data
 As analysts develop analytic work products, they generally move through a series of stages. The work begins with the acquisition of data from internal and external sources and conitnues with the cleaning and manipulation of that data. Once the data is in a suitable form, data professionals apply analytic techniques to draw up conclusions from their data, create visualizations to depict the story of their data and develop reports and dashboards to effectively communicate the results of their work to business leaders.
 
 # Chapter 2: Understanding data
+
+# Introduction Chapter 2
+
+Knowledge of data includes understanding the various types of data that exist and the different options for storing that data in an enterprise environment.
+
+In this chapter, you will: 
+
+ * Understanding domain 1.0: data  concepts and environment.
+
+ * Compare and contrast different data types.
+
+ * Compare and contrast common data structures and file formats.
+
+
+To understand data types, it is best first to understand data elements. A data element is an attribute about a person, place, or thing containing data within a range of values. 
+
+Data elements also describe characteristics of activities, including orders, transaction and events.
+
+***Tabular Data***
+
+This is data organized in a table, made up of rows and columns. It represents information on a single topic. Each column represents a uniquely named field within a table also called a variable about a single characteristic. The contents of each column contain values for the data element as defined by column header. 
+Each row represents a record of a single instance of the table's topic. 
+
+Spreadsheets including Microsoft Excel, Google Sheets and Apple Numbers are practical tools for representing tabular data. A relational database management system (database) extends the tabular model. Instead of having all data in a single table, a database organizes related data across multiple tables. The connection between tables is known as a relationship. Oracle, Microsoft SQL Server, MySQL and PostgreSQL are examples of database software.
+**Exploring Data Types**
 
 # Module 2: Data Preparation and Exploration
 
