@@ -11,16 +11,26 @@ Data analytics is a subject that transcends industry boundaries with skills like
 It is vital to recognize that the domain of data analytics can be branched into 2 primary components:
 
 **conceptual understanding of data(theoretical aspect)**
+
 **hands-on manipulation of data(practical aspect)**
 
 Both components can operate independently but the aim is to extract actionable insights and valuable information from data. Achieved through many ways, be it coding, low-code platforms or no-code solutions.
 
+in this module: we will learn about:
 
-*Chapter 1:* The Data Analyst
+1. The role of a Data Analyst and the scope of data analytics.
+
+2. The process of data analytics
+
+3. The techniques of data analytics.
+
+4. Role of data governance
+
+**Chapter 1:** The Data Analyst
 
 
 
-*Chapter 2:* Understanding data
+**Chapter 2:** Understanding data
 
 # Module 2: Data Preparation and Exploration
 
