@@ -4,7 +4,7 @@
 
 # Module 1: The Basics of Data
 
-Introduction
+*Introduction*
 
 Data analytics is a subject that transcends industry boundaries with skills like Machine Learning, Data Visualization and narrative crafting are no longer exclusive to data scientists and analysts.
 
@@ -27,9 +27,12 @@ in this module: we will learn about:
 4. Role of data governance
 
 
+
 **Chapter 1:** The Data Analyst
 
+
 **What is Data Analytics?**
+
 
 Virtually organizations collect large quantities of data about its customers, products, employees and service offerings.
 Managers seek to analyze that data and harness the information it contains to improve the efficiency, effectiveness and profitability of their work.
@@ -62,7 +65,19 @@ The role of a data analyst is to transform raw data into actionable insights tha
 
 5. **Collaboration and Communication:**
 
-   * Working closely with other departments 
+   * Working closely with other departments to understand their needs and provide insights.
+  
+   * Effectively communicating complex data findings in a clear and concise manner to non-technical stakeholders.
+  
+6. **Continuous Learning and Adaptation:**
+
+   * Keeping up-to-date with the latest industry trends, tools and technologies in data analysis.
+  
+   * Adapting to new types of data and analytical methods as the organization's needs evolve.
+  
+By fulfilling these roles, a data analyst helps an organization make informed decisions that can improve operational efficiencies, drive business strategies and create a competitive advantage. The goal is to have a hand in the organization's success by turning data into a valuable asset that informs and drives decision-making.
+
+
 
 **Chapter 2:** Understanding data
 
