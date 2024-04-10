@@ -291,7 +291,17 @@ It supports any type of digital file from Excel to spreadsheets. When considerin
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/d3270609-48ee-43ac-8c0d-9a4e1d9c3ab4)
 
-*
+**Categories of Data**
+
+*Quantitative vs Qualitative Data*
+
+Quantitative data consists of numeric values. They are data elements whose values come from counting or measuring are quantitative. 
+in a table, the Height and Weight column are quantitative. Quantitative data answers questions like "How many?" and "How much?"
+
+Quantitative data consists of frequent text values. 
+in a table, the Pet Name, Animal Type, Breed Name are qualitative. Qualitative data answers questions like "Why?" and "What?"
+
+Data elements whose values describe characteristics, traits and attitudes are all qualitative.
 
 # Module 2: Data Preparation and Exploration
 
