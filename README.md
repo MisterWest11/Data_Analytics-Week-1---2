@@ -249,11 +249,32 @@ It is necessary to realize that individual characters may consume multiple bytes
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/8bbcd6c3-8e0d-4029-a335-69b77df8c90c)
 
+***Unstructured Data Types***
 
+This is any type of data that does not fit neatly into the tabular model. e.g. digital images, audio recordings, video recordings and open-ended survey questions. 
+
+To capture and analyze unstructured data, we make use of data types designed explicitly for that purpose.
+
+*Binary*
+
+They are one of the most common data types for storing unstructured data. It supports any type of digital file from Excel to spreadsheets. When considering which binary data type to use, file size tends to be the limiting factor. 
 **Date and Time**
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/05af1c55-13ae-4cd0-80b3-c7e4f107262d)
 
+**Currency**
+
+It is essential to differentiate between data storage and data formatting. 
+
+Data Storage - contains the actual value for a given data element. 
+
+Data Formatting - takes a given data value and then formats it for display purposes, common when dealing with currency and data types.
+
+**strong and Weak Typing**
+
+Strong typing is whe technology rigidly enforces data types. 
+
+Weak typing loosely enforces data types.
 
 
 
