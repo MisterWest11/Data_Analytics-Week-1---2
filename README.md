@@ -227,6 +227,37 @@ most widely used data type for storing character-based data. Alphanumeric is app
 
 It is ideal for storing product stock-keeping units(SKUs).
 
+***Character Sets***
+
+When  considering an alphanumeric and text data type, you need to think about the character set you using to input and store data when using a database. Databases use character sets to map or encode data store it digitally. 
+
+ASCII encoding standard is based on U.S. English alphabet. It accomodates both upper and lower case English alphabets and numbers, mathematical operators and symbols.
+
+It is necessary to realize that individual characters may consume multiple bytes, impacting the length of a character string you can store in a character data type.
+
+**Numeric**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/bcceaeef-509d-4b52-9a4b-038d3e2c2739)
+
+**Whole Numbers**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/8554b102-8a67-4122-9c53-a9975b6a33aa)
+
+**Rational Numbers**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/e4a406bc-359f-45ce-a7be-9a94634d4983)
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/8bbcd6c3-8e0d-4029-a335-69b77df8c90c)
+
+
+**Date and Time**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/05af1c55-13ae-4cd0-80b3-c7e4f107262d)
+
+
+
+
+
 # Module 2: Data Preparation and Exploration
 
 *Chapter 3:* Databases and Data Acquisition
