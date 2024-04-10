@@ -249,15 +249,7 @@ It is necessary to realize that individual characters may consume multiple bytes
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/8bbcd6c3-8e0d-4029-a335-69b77df8c90c)
 
-***Unstructured Data Types***
-
-This is any type of data that does not fit neatly into the tabular model. e.g. digital images, audio recordings, video recordings and open-ended survey questions. 
-
-To capture and analyze unstructured data, we make use of data types designed explicitly for that purpose.
-
-*Binary*
-
-They are one of the most common data types for storing unstructured data. It supports any type of digital file from Excel to spreadsheets. When considering which binary data type to use, file size tends to be the limiting factor. 
+ 
 **Date and Time**
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/05af1c55-13ae-4cd0-80b3-c7e4f107262d)
@@ -276,8 +268,28 @@ Strong typing is whe technology rigidly enforces data types.
 
 Weak typing loosely enforces data types.
 
+***Unstructured Data Types***
+
+This is any type of data that does not fit neatly into the tabular model. e.g. digital images, audio recordings, video recordings and open-ended survey questions. 
+
+To capture and analyze unstructured data, we make use of data types designed explicitly for that purpose.
+
+*Binary*
+
+They are one of the most common data types for storing unstructured data. 
+
+It supports any type of digital file from Excel to spreadsheets. When considering which binary data type to use, file size tends to be the limiting factor. you need to select a data type that is large as the largest file you plan on storing.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/2ed1cec7-18e5-4706-b1e0-bafbb15926ea)
+
+*Images*
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/c2291d90-8db5-4682-b7f4-7f01addb8677)
 
 
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/1c11ac9a-e630-4d77-9329-18de88116c11)
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/d3270609-48ee-43ac-8c0d-9a4e1d9c3ab4)
 
 # Module 2: Data Preparation and Exploration
 
