@@ -303,6 +303,11 @@ in a table, the Pet Name, Animal Type, Breed Name are qualitative. Qualitative d
 
 Data elements whose values describe characteristics, traits and attitudes are all qualitative.
 
+*Discrete vs Continuous Data*
+
+
+
+
 # Module 2: Data Preparation and Exploration
 
 *Chapter 3:* Databases and Data Acquisition
