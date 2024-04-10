@@ -291,6 +291,8 @@ It supports any type of digital file from Excel to spreadsheets. When considerin
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/d3270609-48ee-43ac-8c0d-9a4e1d9c3ab4)
 
+*
+
 # Module 2: Data Preparation and Exploration
 
 *Chapter 3:* Databases and Data Acquisition
