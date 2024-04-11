@@ -274,7 +274,7 @@ This is any type of data that does not fit neatly into the tabular model. e.g. d
 
 To capture and analyze unstructured data, we make use of data types designed explicitly for that purpose.
 
-*Binary*
+**Binary**
 
 They are one of the most common data types for storing unstructured data. 
 
@@ -352,7 +352,17 @@ It also makes summarization easy, since you can compute the average height for e
 
 *Unstructured Data*
 
+Unstructured data is qualitative, describing characteristics of an event or an object. Images, phrases, audio or video recordings and descriptive texts are all examples of unstructured data. 
 
+Its organizational and storage needs are different from structured data.
+
+Machine Data is a common source of unstructured data. It has various sources including internet of Things devices, smartphones, tablets, pc and servers. They create digital footprints of their activity. 
+
+A wide variety of technologies has emerged to facilitate the storage of unstructured data. These technologies  are similar to how a key in a tabular dataset identifies its associated values. The key is a unique identifier,  whereas the value is the unstructured data itself.
+
+*Semi-structured Data*
+
+it has some organization, unlike completely unstructured data, but it is not confined to a strict tabular format like spreadsheets. The need to make semi-structured data easier to work with has led to the emergence of semi-structured formatting options. They use separators or tags to provide some context around a data element.
 
 # Module 2: Data Preparation and Exploration
 
