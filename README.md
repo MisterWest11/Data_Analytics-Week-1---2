@@ -364,6 +364,40 @@ A wide variety of technologies has emerged to facilitate the storage of unstruct
 
 it has some organization, unlike completely unstructured data, but it is not confined to a strict tabular format like spreadsheets. The need to make semi-structured data easier to work with has led to the emergence of semi-structured formatting options. They use separators or tags to provide some context around a data element.
 
+***Common File Formats***
+
+They facilitate data exchange and tool interoperability.
+
+**Text Files**
+
+These are plain texts often used for data due to their platform independence(readbility on different OS). They can also be created by machines e.g. log files
+
+There are delimiters, they are structured data stored in text files, special characters(delimiters) separate individual data points(fields). Commas and Tabs are popular choices.
+
+CSV & TSV (comma-seperated values & tab-separated values) are specific types of text files where commas or tabs act as delimiters. They hold structured data, mix of structured and unstructured data within a single field
+
+**Fixed-width Files**
+
+They have a fixed width for each column, meaning all data points in a specific column have the same length. The first row contains the column names, subsequent rows hold data entries. Each data entry must be padded with spaces or zeroes to maximum width allocated to its column.
+
+**JavaScript Object Notation(JSON)**
+
+JSON overview: JSON is a popular and open-standard file format that adds structure to plain text files. It's designed to be:
+
+Human-readable: Easy for people to understand the data organization.
+
+Machine-readable: Simple for programming languages to parse and process the data.
+
+Lightweight: Doesn't add unnecessary complexity to the file size.
+
+Data structure: JSON uses curly braces {} to enclose information about individual data entries. Within these braces, key-value pairs define the data elements and their corresponding values.
+
+Example: The passage shows how pet data from a table can be formatted as JSON, where each pet's details are within curly braces and "name:value" pairs represent data elements.
+
+Machine processing: The text showcases how Python and R programming languages can easily read and process JSON data. It highlights how R can even generate summary statistics (e.g., number of dogs/cats, height/weight quartiles) from the JSON-formatted pet data.
+
+Overall, JSON provides a clear and efficient way to store and exchange structured data that's both user and machine-friendly.
+
 # Module 2: Data Preparation and Exploration
 
 *Chapter 3:* Databases and Data Acquisition
