@@ -449,7 +449,7 @@ In essence, the passage highlights the importance of choosing appropriate data t
 
 2. Know that you can format data after storing it
 
-   * Data types: These define how data is stored electronically (e.g., numeric data type for numbers).
+  * Data types: These define how data is stored electronically (e.g., numeric data type for numbers).
      
   * Data formatting: This determines how data is presented to users (e.g., rounding numbers, applying currency symbols, adjusting date formats).
 
@@ -458,7 +458,7 @@ The key takeaway is that data storage (data type) and data presentation (formatt
 
 3. Consider the absolute limits of values that you will use before selecting data types
 
-   * Discrete data: If the data can only have specific, separate values within a defined range (e.g., number of shoes owned: 0, 1, 2, etc.), choose a data type that supports discrete data.
+  * Discrete data: If the data can only have specific, separate values within a defined range (e.g., number of shoes owned: 0, 1, 2, etc.), choose a data type that supports discrete data.
   
      
   * Continuous data: If the data can theoretically have any value within a range (e.g., height: 1.5 meters, 1.51 meters, 1.512 meters, etc.), choose a data type that supports continuous data, especially if the exact range is unknown beforehand.
