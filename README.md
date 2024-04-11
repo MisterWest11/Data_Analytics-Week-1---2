@@ -305,8 +305,36 @@ Data elements whose values describe characteristics, traits and attitudes are al
 
 *Discrete vs Continuous Data*
 
+Numeric data comes in two different forms, discrete and continuous.
+
+Discrete data represents things you can count like whole numbers(e.g. number of pets) or a value of specific increments (e.g. number of chickens bought in half-chicken portions).
+
+Continuous data represents things you measure, often involving decimals (e.g. height, weight)
+
+While both are numeric, discrete data has fixed values while continuous data can take on any value within a range.
+
+Qualitative data is inherently discrete but quantitative can be either discrete or continuous depending on how it's used.
 
 
+*Categorical data*
+
+This one involves text data that falls into a limited set of predefined categories.
+
+* Categorical data involves text values that belongs to specific groups (e.g. animal type: dog or cat)
+
+* New data points are assigned to existing categories, but the categories themselves can be expanded if need (e.g. adding horses)
+
+* Categorical data can be used for data validation. (e.g. an online appointment system can limit options to valid animal types (cat or dog) to prevent errors.)
+
+*Dimensional Data*
+
+* Is an approach to arranging data to facilitate analysis. It organizes data into fact tables and dimension tables.
+
+Fact tables store measurement data that is of interest to a business. A veterinary practice may want to answer some questions about appointments.  A table holding appointment data would be called a fact table. 
+
+Dimensions are tables that contain data about the fact. For appointment data, the vet's office manager may want to understand who was at an appointment and if any procedures were performed. The Appointments table is the fact table. The vet, owners, procedures and pets are all dimensions that can answer question about appointment.
+
+Dimensional data contains groupings of individual attributes about a given subject. (e.g. taken as a whole number, the pets dataset can be called "pets" dimensions
 
 # Module 2: Data Preparation and Exploration
 
