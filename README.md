@@ -336,6 +336,24 @@ Dimensions are tables that contain data about the fact. For appointment data, th
 
 Dimensional data contains groupings of individual attributes about a given subject. (e.g. taken as a whole number, the pets dataset can be called "pets" dimensions
 
+**Common Data Structures**
+
+Data needs to be stored in a consistent, organized manner in order to facilitate analysis. When dealing with structured data, several concepts and standards inform how to organize data.
+
+Analysts need to be able to perform their roles as efficiently as possible. It is common use to use multiple tools to analyze data. Improved integration and interoperability between tools make it easier for analysts to be productive. 
+
+*Structured Data*
+
+Tabular data is structured data with values stored in a consistent, defined manner, organized into columns and rows. Data is consistent when all entries in a column contain the same type of value.
+
+This method of organization facilitates aggregation. (e.g. you can add each value in the Weight column to get the total weight of all animals.) 
+
+It also makes summarization easy, since you can compute the average height for each animal. However structured data does not translate directly to data quality. 
+
+*Unstructured Data*
+
+
+
 # Module 2: Data Preparation and Exploration
 
 *Chapter 3:* Databases and Data Acquisition
