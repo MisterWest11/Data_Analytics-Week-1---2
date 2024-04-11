@@ -328,7 +328,7 @@ This one involves text data that falls into a limited set of predefined categori
 
 *Dimensional Data*
 
-* Is an approach to arranging data to facilitate analysis. It organizes data into fact tables and dimension tables.
+   * Is an approach to arranging data to facilitate analysis. It organizes data into fact tables and dimension tables.
 
 Fact tables store measurement data that is of interest to a business. A veterinary practice may want to answer some questions about appointments.  A table holding appointment data would be called a fact table. 
 
