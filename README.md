@@ -488,7 +488,46 @@ In essence, the right file format depends on the data structure and complexity. 
 
 # Module 2: Data Preparation and Exploration
 
-*Chapter 3:* Databases and Data Acquisition
+In this module, we will:
+
+  * Understand how to explore and acquire data.
+    
+  * Learn about databases and the need to classify and store or structure data.
+
+  * Compare various data manipulation techniques and how to manage data quality.
+
+  * Explain the fundamentals of statistics and analysis techniques.
+
+    
+# Chapter 3: Databases and Data Acquisition
+
+
+# Databases and Data Acquisition
+
+In this chapter: 
+
+  * Data concepts and environment
+
+  * Identify basic concepts of data schemas and dimensions.
+
+  * Understanding the domain of data mining.
+
+  * Explain data acquisition concepts.
+
+  * Explain common techniques for data manipulation and query optimization.
+
+There are many different databases options to choose from when an organization needs to store data.
+
+1. Relational
+
+2. Nonrelational
+
+
+*The Relational Model* 
+
+The relational model builds on the concept of tabular data. In the relational model, an entity contains data for a single subject. When creating an IT System, you need to consider all the entities required to make your system work.
+
+Structure of RDB
 
 *Chapter 4:* Data Quality
 
