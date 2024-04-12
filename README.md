@@ -527,7 +527,32 @@ There are many different databases options to choose from when an organization n
 
 The relational model builds on the concept of tabular data. In the relational model, an entity contains data for a single subject. When creating an IT System, you need to consider all the entities required to make your system work.
 
-Structure of RDB
+The Entity Relationship Diagram  (ERD) is a visual artifact of the data modeling process. It shows the connection between related entities. A relationship is a connection between entities, the symbols adjacent to an entity describe the relationship.
+
+Cardinality is the relationship between two entities, showing how many instances of one entity relate to instances of another entity. You specify the cardinality in an ERD with various line endings. 
+
+The first component of the terminator indicates whether the relationship between the two entities is optional or required.
+
+The second components indicates whether an entity instance in the first table is associated with a single entity instance in the related table or if an association can exist with multiple entity instances.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/441935d7-c360-48c2-96a7-8eef95e87ee8)
+
+When reading from an ER Diagram aloud from left to right, you say "An individual animal belongs to at least one and possibly many people". Reading from right to left, you say "A specific person has at least one and possibly many animals".
+
+Unary relationship is when an entity has a connection with itself. e.g a single manager has multiple employees.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/1505e022-25b5-4775-9c78-32288a85a767)
+
+
+A binary relationship connects two entities. They are the most common and easy to explore whereas a unary and ternary are comparatively complex and rare.
+
+A ternary relationship connects three entities.
+
+Apart from being a helpful picture, the entity relationship diagram also serves as a relational database's blueprint. The ability to read ERDs helps you understand the structure of a relational database.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/03a68e3c-3576-4f39-a303-c3ab72e694fe)
+
+
 
 *Chapter 4:* Data Quality
 
