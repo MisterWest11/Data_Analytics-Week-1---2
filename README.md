@@ -552,7 +552,15 @@ Apart from being a helpful picture, the entity relationship diagram also serves 
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/03a68e3c-3576-4f39-a303-c3ab72e694fe)
 
+*Relational Databases*
 
+Pieces of software that let you make an operational system out of an ERD. You start with a relational model and create a physical design. Relational entities correspond to databse tables and entuty attributes correspond to table columns. 
+
+When creating a database table, the ordering of columns does not matter because you can specify the column order when retrieving the data from a table. When attributes becomes a column, you assign it a data type. 
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/94c311de-f1f6-4f5c-9507-80a7dea0a80b)
+
+In the above figure, a new table was created. AnimalPerson is necessary because you need to resolve a many-to-many
 
 *Chapter 4:* Data Quality
 
