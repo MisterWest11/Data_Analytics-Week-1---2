@@ -586,6 +586,38 @@ Data types available in relational databases are absent. Data validation happens
 
 * Limited search: searching relies solely on the key value, as there are no pre-defined structures to query accross.
 
+*Document*
+
+It is similar to key-value database, with additional restrictions. 
+
+* Similar to key-value stores, but structured: Like key-value databases, documents are accessed using unique keys. However, document databases add a layer of structure to the values.
+
+* Structured values: Document databases enforce a specific format on the values, such as JSON or XML. This structure allows for more advanced capabilities.
+
+* Flexibility beyond key-value: While key-value stores only allow searching by key, document databases enable searching within the document itself due to the structured format.
+
+* Example: Social network profiles: Imagine storing profiles as JSON documents with a username as the key. The document value would contain details like zip code. You can then search for profiles in a specific zip code because the database understands the structure and can search within documents.
+
+*Column-Family*
+
+* Group related columns together.
+
+* Indexing: Use an index to efficiently locate data within column families.
+
+* Scalability: Allows for distributing data across multiple machines, making them perfect for handling massive datasets.
+
+* Performance: excel at tasks that involve examining specific columns across many rows.
+
+*Graphs*
+
+* Graph databases excel at capturing and exploring connections between data points.
+
+* Nodes & Properties: Data in a graph is represented as Nodes(entities) that can have properties containing specific attributes.
+
+* Relationships: Edges or arrows connect nodes, depicting the relationships between them.
+
+* Graphs offer a more streamlined approach to navigate connections.
+
 
 
 
