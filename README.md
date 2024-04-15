@@ -560,7 +560,15 @@ When creating a database table, the ordering of columns does not matter because 
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/94c311de-f1f6-4f5c-9507-80a7dea0a80b)
 
-In the above figure, a new table was created. AnimalPerson is necessary because you need to resolve a many-to-many
+In the above figure, a new table was created. AnimalPerson is necessary because you need to resolve a many-to-many relationship with an associative table. 
+
+An associative table is both a table and a relationship. An associative table lets you identify the relationship between a specific animal and a particular person with a minimum amount of data duplication. 
+
+Relational databases are complicated to operate at scale. A database admin is a highly trained person who understands how database software interacts with computer hardware. They look after how the database uses the underlying storage, memory and processor resource assigned to the database. Also looks for processes that are slowing down the database down.
+
+*Address Referential Integrity Example*
+
+
 
 *Chapter 4:* Data Quality
 
