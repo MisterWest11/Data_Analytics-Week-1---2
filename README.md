@@ -566,11 +566,26 @@ An associative table is both a table and a relationship. An associative table le
 
 Relational databases are complicated to operate at scale. A database admin is a highly trained person who understands how database software interacts with computer hardware. They look after how the database uses the underlying storage, memory and processor resource assigned to the database. Also looks for processes that are slowing down the database down.
 
-*NonRelational Databases*
+**NonRelational Databases**
 
 Do not have a predefined structure based on tabular data. Highly flexible approach in storing data. 
 
 Data types available in relational databases are absent. Data validation happens in code.
+
+*Key-Value*
+
+* Simple data storage: Data is stored as key-value pairs, offering a straightforward approach.
+
+* Unique keys: each key acts as a unique identifier for its corresponding value within the entire database. 
+
+* Flexible values: Values can be various data types, structured or unstructured, providing versatility.
+
+* Simpler operation: absence of complex table structures makes key-value databases easier to manage compared to relational databases.
+
+* Scalability: Handle numerous concurrent requests efficientl , making them suitable for large-scale applications.
+
+* Limited search: searching relies solely on the key value, as there are no pre-defined structures to query accross.
+
 
 
 
