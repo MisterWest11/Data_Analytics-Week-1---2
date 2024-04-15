@@ -652,6 +652,20 @@ It reduces wasted storage space by eliminating duplicate data. Improves data acc
  
   * Eliminates transitive dependencies. No columns depend on each other indirectly through another column. they should rely on the primary key.
 
+**Online Analytical Processing**
+
+OLAP systems focus on the ability of organizations to analyze data. OLTP databases need to balance transactional read and write performance, resulting in a highly normalized design.
+
+OLAP systems have a denormalized design. Instead of having data distributed across multiple tables, denormalization results in wider tables than those found in an OLTP database.
+
+It is more efficient for analytical queries to read large amounts of data for a single table instead of incurring the cost of joining multiple tables together. 
+
+**Schema Concepts**
+
+Its design depends on the purpose it serves. Transactional systems require highly normalized databases.
+
+A data warehouse - a database that aggregates data from many transactional systems for analytical purposes. Transactional data may come from systems that power the human resources, sales, marketing and product divisions. A data warehouse facilitates analytics across the entire company. 
+
 *Chapter 4:* Data Quality
 
 *Chapter 5:* Data Analytics and Statistics
