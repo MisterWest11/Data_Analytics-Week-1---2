@@ -618,8 +618,39 @@ It is similar to key-value database, with additional restrictions.
 
 * Graphs offer a more streamlined approach to navigate connections.
 
+***Database Use Cases***
 
+Business requirements impact the design of individual tables and how they are interconnected. Transactional and reporting systems need different implementation approaches to serve the people who use them efficiently. Databases tend to support two major categories of data processing: Online Transactional Processing(OLTP) and Online Analytical Processing (OLAP).
 
+**Online Transactional Processing**
+
+This system handles the transactions we encounter everyday. While the number of transactions a system handles on a given day can be very high, individual transactions process small amounts of data. OLTP systems balance the ability to write and read data efficiently.
+
+**Normalization**
+
+* organize data in a database efficiently, to minimize redundancy and imporve data integrity.
+
+It reduces wasted storage space by eliminating duplicate data. Improves data accuracy by preventing inconsistencies. Enhances query performance by making data easier to retrieve and manipulate.
+
+*Normalization levels(1NF, 2NF, 3NF)*
+
+* First Normal Form(1NF)
+  
+  * Each table row is unique (Identified by a primary key).
+ 
+  * Every column has a single value(no repeating groups of values within cell)
+
+* Second Normal Form (2NF)
+   
+  * Meets all requirements of 1NF.
+  
+  * Eliminates partial dependencies. Every non-key column must depend on the entire primary key, not just a part of it.
+
+* Third Normal Form (3NF)
+
+  * Meets all requirements of 2NF.
+ 
+  * Eliminates transitive dependencies. No columns depend on each other indirectly through another column. they should rely on the primary key.
 
 *Chapter 4:* Data Quality
 
