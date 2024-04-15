@@ -566,7 +566,11 @@ An associative table is both a table and a relationship. An associative table le
 
 Relational databases are complicated to operate at scale. A database admin is a highly trained person who understands how database software interacts with computer hardware. They look after how the database uses the underlying storage, memory and processor resource assigned to the database. Also looks for processes that are slowing down the database down.
 
-*Address Referential Integrity Example*
+*NonRelational Databases*
+
+Do not have a predefined structure based on tabular data. Highly flexible approach in storing data. 
+
+Data types available in relational databases are absent. Data validation happens in code.
 
 
 
