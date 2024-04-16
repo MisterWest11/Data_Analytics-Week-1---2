@@ -950,6 +950,31 @@ Execution plans are like diagnostic tools that help you understand how your data
 
 * Performance Optimization: For large datasets, use parameterization (reduce parsing) and subsets/temporary tables to reduce data worked with. Use execution plans with DBAs to check for efficient indexing.
 
+# chapter Review
+
+**Describe characteristic of OLTP and OLAP systems.**
+
+Two main categories of relational databases are transactional (OLTP) and analytical (OLAP). Transactional systems use highly normalized schema design, which allows for database reads and writes to perform well. 
+
+Analytical systems are denormalized and commonly have a star or snowflake schema design. A star design simplifies queries by having a main fact table surrounded by dimensions. A snowflake is more normalized than a star. This approach reduces storage requirements, the queries are more complex than in a star schema.
+
+**Describe the approaches for handling dimensionality**
+
+It is important to keep track of how data changes over time to perform historical analysis. SQL queries to retrieve a value at a specific point in time are complex. a table design add start date and end date columns that allows for more straightforward queries. Enhancing the design with a current flag column makes analytical queries even easier to write.
+
+**Understand integration and how to populate a data warehouse**
+
+The more data an organization has, the more impactful the analysis it can conduct. The extract, transform, and load (ETL) process copies data from transactional to analytical databases. Suppose an organization wants to use the power of a relational database to reformat the data for analytical purposes. In that case, the order changes to extract, load, and transform. Regardless of the approach, remember that a delta load migrates only changed data.
+
+**Differentiate between data collection methods.**
+
+Data can come from a variety of sources. An organization may scrape websites or use publicly available databases to augment its data. While web scraping may be the only way to retrieve data, it is better if a published application programming interface exists. An API is more reliable since its structure makes for a consistent interface. If you want to capture the voice of the customer, a survey is a sound approach. Collecting data through observation is a great way to validate business processes and collect quantitative data.
+
+**Describe how to manipulate data and optimize queries.**
+
+Analytical databases store massive amounts of data. Manipulating the entire dataset for analysis is frequently infeasible. To efficiently analyze data, understand that SQL has the power to filter, sort, and aggregate data. When focusing on a particular subject, creating a subset is an ideal approach. Although it is possible to create permanent tables to house subsets, using a temporary table as part of a query is viable for ad hoc analysis. When an analytical query performs poorly, use its execution plan to understand the root cause. It is wise to work with a database administrator to understand the execution plan and ensure that indexes exist where they are needed.
+
+
 *Chapter 4:* Data Quality
 
 *Chapter 5:* Data Analytics and Statistics
