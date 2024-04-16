@@ -664,7 +664,29 @@ It is more efficient for analytical queries to read large amounts of data for a 
 
 Its design depends on the purpose it serves. Transactional systems require highly normalized databases.
 
-A data warehouse - a database that aggregates data from many transactional systems for analytical purposes. Transactional data may come from systems that power the human resources, sales, marketing and product divisions. A data warehouse facilitates analytics across the entire company. 
+A data warehouse - a database that aggregates data from many transactional systems for analytical purposes. 
+
+Transactional data may come from systems that power the human resources, sales, marketing and product divisions. 
+
+A data warehouse facilitates analytics across the entire company. 
+
+Data Mart - is a subset of a data warehouse.
+
+The data warehouse serves the entire organization, the data mart focuses on the needs of a particular department within the organization.
+
+Data lake stores raw data in its native format instead of conforming to a relational database structure. Using a data lake is more complex than a data warehouse or data mart. It requires additional knowledge about raw data to make it analytically useful. Relational databases enforces a structure that encapsulates business rules and business logic, both of which are missing in a data lake.
+
+There are 3 main types of databases: 
+
+* Transactional Systems: These are for everyday tasks like sales,or human resource. They need to be organized and accurate.
+
+* Data warehouse: These are for analyzing data from many sources like sales, marketing and human resources. They are good for understanding trends across the company.
+
+* Data marts: These are like smaller versions of data warehouses, but they focus on the needs of one department like human resources.
+
+Data lakes are different because they store raw data instead of organizing it in a neat way.
+
+When designing a database, consider how you will use the data and how much data you will have.
 
 *Chapter 4:* Data Quality
 
