@@ -688,6 +688,79 @@ Data lakes are different because they store raw data instead of organizing it in
 
 When designing a database, consider how you will use the data and how much data you will have.
 
+Star and Snowflake are two ways to organize data specifically for data wwarehouses, which store information for analysis
+
+Star schema: simple, like a well-organized shelf of a library. It has the central fact table with key metrics surrounded by dimension tables. These dimension tables contain details that categorize the fact.
+
+Snowflake Schema: More complex, like a library with many subcategories. similar to star schema, but dimension tables thrmselves are broken down into further details.
+
+**Dimensionality**
+
+* refers to how many attributes a table has(can hold). More details means higher dimensionality.
+
+Dimension Tables:
+
+These tables provide context for the data in another table (usually a fact table).
+
+They contain details that categorize the main data points.
+
+Think of them as chapters or sections that explain the "what" in the main story (fact table).
+
+
+***Data Acquisition Concepts***
+
+**Integration**
+
+Data from transactional systems flows into data warehouses and data marts for analysis.OLTP & OLAP databases have different internal structures, you need to retrieve, reshape and insert data to move data between operational and analytical environments. You can use different methods to transfer data efficiently and effectively.
+
+ETL:
+
+* Extract: first phase, you extract data from the source system and place it in a staging area. The goal of the extract phase is to move data from a relational database to a flat file as quickly as possible.
+
+* Transform: second phase is to transform the data. The goal is to reformat the data from its transactional structure to the data warehouse's analytical design.
+
+* Load: The purpose of the phase is to ensure that data gets into the analytical system as quickly as possible.
+
+ELT (Extract, Load and Transform) is a varient of ETL. With ELT, data is extracted from a source database and loaded directly into the data warehouse. Once the extract and load phase are complete, the transformation phase gets underway. one key difference between ETL and ELT is the technical component performing the transformation. with ETL, data transformation takes place external to a relational database, using a programming language like Python. ELT uses SQL and the power of relational database to reformat the data.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/57df19c9-2bbe-4f1c-84c5-f2be5784e041)
+
+***Data Collection Methods***
+
+Augmenting data from your transactional systems with external data is an excellent way to improve the analytical capabilities of your organization.
+
+An API is a structured method for computer systems to exchange information. The internal structure does not matter as long as the API return the data you want. APIs can be transactional, returning data as JSON objects. APIs can also facilitate bulk data extraction returning CSV files.
+
+APIs represent a specific piece of business functionality. 
+
+***Web Services***
+
+A web service is an API you can call via HyperText Transfer Protocol(HTTP), the language of the World Wide Web.
+
+
+***Web Scraping***
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/8879b523-bab9-49a7-8917-6dffda77deaf)
+
+***Human-in-the-loop***
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/b181bb86-d92a-4bc7-b6e2-8a1bde47d77d)
+
+***Surveys***
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/a1d64f18-fd39-436a-8f1d-f6bb66d98677)
+
+
+***Obserbation***
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/f68bac82-6197-40dd-8e06-0425cf81c8e9)
+
+***Sampling***
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/78aa958d-43de-4416-838b-5bc1279ea8de)
+
+
+
 *Chapter 4:* Data Quality
 
 *Chapter 5:* Data Analytics and Statistics
