@@ -794,6 +794,161 @@ complex queries frequently use multiple logical operators at the same time. Data
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/8e9dd2e9-9583-4464-b577-3d94fd0188a7)
 
+**Data Functions**
+
+Date columns also appear in transactional systems. Storing data information about an event facilitates analysis across time. The most thing is that you have to understand the database platform you are using and how that platform handles dates and time.
+
+**Logical Functions**
+
+They are like tools you can use in your queries to narrow down or manipulate your search results. They act like decision makers, using keywords like AND, OR, NOT to compare data and determine which rows to include in the answer.
+
+**Aggregate Functions**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/e93cb524-ab1a-4a56-9f40-8b403555fbe5)
+
+**System Functions**
+
+Each database offers functions that expose data about the database itself. Frequently used system functions returns the current date. current date is a component of transactional records and enables time-based analysis in the future.. it is also necessary for a system that uses an effective date approach.
+
+They also return data about the database environment.
+
+**Query Optimization**
+
+**Parametrization**
+
+whenever an SQL query is ran, the database needs to translate it from human-readable form to code it understands(machine code). this translation process is called *parsing*.
+
+parsing takes time and the more complex the query, the longer it takes. This can slow down how fast you get results.
+
+Parameterization to the Rescue:
+
+Parameterization is a technique that helps reduce the amount of parsing needed for certain types of queries.
+
+Imagine a website that personalizes greetings based on the user's name.
+
+A bad approach would be to write the name directly into the query (like "SELECT * FROM users WHERE name = 'Gerald'"). This creates a unique query for every user, forcing the database to parse it each time.
+
+Benefits of Parameterization:
+
+Parameterization uses a placeholder (like &customer_name) in the query.
+
+The web server code then inserts the actual user's name (like "Gerald" or "Gina") into the placeholder before sending the query to the database.
+
+From the database's perspective, it sees the same basic query structure every time, regardless of the inserted name.
+
+This significantly reduces parsing overhead, especially for queries that are used repeatedly with different values.
+
+Summary:
+
+Parameterization is a trick to improve the performance of your SQL queries. It treats frequently used queries with variable parts as a single template, reducing the database's workload and speeding up your results.
+
+**Indexing**
+
+Finding data in a database:
+
+Imagine searching for a specific fact in a book. Without an index (like a table of contents), you'd have to flip through every page (full table scan). This is slow for large amounts of data (big books).
+
+Database indexes to the rescue:
+
+Indexes act like a book's index – they point you to the right location (data row) quickly.
+
+They work for single columns or combinations (like finding a specific word or phrase in a book's index).
+
+Optimum performance:
+
+Ideally, all the data you need in your query (SELECT statement) should be included in the index, like having relevant keywords listed in the book's index.
+
+If not all, at least the first column you're searching by (like the first word in a phrase) should be indexed.
+
+Considering indexes:
+
+If your queries are slow, check the table's indexes. Discuss adding new ones with a database administrator (DBA) who can create them and consider other performance factors.
+
+Trade-offs:
+
+While indexes speed up searching (reading data), they can slow down adding, updating, or deleting data (writing data) – like having to rewrite the book's index every time you add a new page.
+
+DBA's role:
+
+DBAs decide on indexing strategies considering the database type (transactional for everyday tasks or reporting for analyzing data) to balance speed and efficiency.
+
+Summary:
+
+Database indexes are like book indexes – they help find data fast in large datasets. They have trade-offs but can significantly improve query performance.
+
+**Data Subsets & Temporary Tables**
+
+Large datasets, big problems:
+
+Imagine a data warehouse with billions of rows of order history data.
+
+Analyzing a specific customer's orders from that massive table would be slow and inefficient.
+
+Temporary tables for the rescue:
+
+Temporary tables act like scratchpads for your data analysis.
+
+You can use a query to create a temporary table containing just the relevant data (e.g., a single customer's orders).
+
+You can then run your analysis queries on this smaller, more manageable temporary table.
+
+Temporary and disposable:
+
+Unlike the main data warehouse tables, temporary tables are temporary.
+
+They are automatically deleted when you disconnect from the database, so you don't have to worry about cleaning up.
+
+Use case:
+
+This is ideal for ad hoc analysis, where you need to explore specific data subsets without affecting the main tables.
+
+Summary:
+
+Temporary tables are a handy tool for working with smaller, more focused datasets within a large data warehouse, making your analysis tasks faster and more efficient.
+
+**Execution Plan**
+
+Execution Plans: Behind the Scenes of Your Queries
+
+Imagine you ask a database to retrieve some data. The database follows a specific plan to get that information efficiently.
+
+An execution plan is like a roadmap that shows exactly how the database goes about executing your query.
+
+Why are Execution Plans Important?
+
+Sometimes, queries can run slow. Execution plans help you troubleshoot these issues.
+
+They reveal details about how the database is processing the query, like whether it's scanning the entire table (slow) or using an existing index (faster).
+
+Benefits of Execution Plans:
+
+By analyzing the plan, you can identify problems like:
+
+Queries not using available indexes, leading to slow performance.
+
+Missing indexes that could improve query speed.
+
+How to Use Execution Plans:
+
+Understanding execution plans can be complex and depends on the specific database platform you're using.
+
+If you need help interpreting an execution plan, consult your database administrator (DBA) – they're the experts!
+
+Summary:
+
+Execution plans are like diagnostic tools that help you understand how your database executes queries. By analyzing them, you can identify and fix performance bottlenecks, making your queries run faster and smoother.
+
+# Chapter Summary
+
+* Databases: there are two main types: relational(structured data) and non-relational(flexible data).
+
+* Database Design: transactional databases (OLTP) for daily operations use a normalized schema(strict structure). Analytical databases (OLAP) for analysis use a denormalized schema with star/snowflake schema designs for dimensional modeling (facts & dimensions).
+
+* Data Acquisition: data can come from internal transactional systems (ETL/ELT) or external sources(APIs, web scraping, public databases) you can also conduct surveys or observations.
+
+* Data Manipulation: SQL is the standard language for querying and manipulating data in relational databases (filtering, sorting, etc.).
+
+* Performance Optimization: For large datasets, use parameterization (reduce parsing) and subsets/temporary tables to reduce data worked with. Use execution plans with DBAs to check for efficient indexing.
 
 *Chapter 4:* Data Quality
 
