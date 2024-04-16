@@ -759,6 +759,40 @@ A web service is an API you can call via HyperText Transfer Protocol(HTTP), the 
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/78aa958d-43de-4416-838b-5bc1279ea8de)
 
+**Working with Data**
+
+Determine the right database structure, identifying the data sources and loading a database takes a considerable amount of effort. To turn it into an operational database ready to accept data, you use the Data Definition Language (DDL) components of SQL. DDL lets you create, modify and delete tabkes and other associated database objects. To generate insights, a productive analyst must be comfortable using Data Manipulation Language capabilities of SQL to insert, modify and retrieve information from databases. DDL manages the structure of the database, DML manages the data in the database.
+
+**Data Manipulation**
+
+When manipulating data, 4 possible actions occur:
+  1. Create new data.
+
+  2. Read existing data.
+
+  3. Update existing data.
+
+  4. Delete existing data.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/f96e9c01-bf37-4320-a088-1d1170e4e035)
+
+**SQL Considerations**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/52507a94-55b5-41b5-80e7-75a5a82c6e61)
+
+**Filtering**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/1b048348-61b0-49a0-9df9-65e6fb87f814)
+
+**Filtering and Logical Operators**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/0a17e30d-2fc1-4a4c-a446-a10e293763d5)
+
+complex queries frequently use multiple logical operators at the same time. Data warehouse often contains millions, billions or even trillions of individual data records. Filtering data is essential to making effective use of these massive data stores.
+
+**Sorting**
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/8e9dd2e9-9583-4464-b577-3d94fd0188a7)
 
 
 *Chapter 4:* Data Quality
