@@ -1108,7 +1108,13 @@ It creates a new dataset containing all rows from the originals. It increases da
 
 **Inputation**
 
-- this is a technique
+- this is a technique for dealing with missing values by replacing them with substitutes. When merging mulitple data sources, you may end up with a dataset with many nulls in a given column. If you are collecting sensor data, it is possible to have missing values due to collection or transmission issues.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/ae854a6b-852b-44ad-921e-dc23afc437f0)
+
+here are a few approaches an analyst can use for imputing values:
+
+    - Remove Missing Data: you can remove rows with missing values without impacting the quality of your overall analysis.
 
 *Chapter 5:* Data Analytics and Statistics
 
