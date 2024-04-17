@@ -1068,8 +1068,47 @@ This is a technique you can use to map original values for a variable into new v
 **Data Merge**
 
 uses common variable to combine multiple datasets with different structures into a single dataset. Merging data improves data quality by adding new variables to your existing data. Additional variables make for a richer dataset, which positively impacts the quality of your analysis. ETL processes commonly append data while transforming data for use in analytical environments.
+Data merge adds a column to a dataset, merging gives you additional data about a specific observation.
 
+Combines datasets with a common variable into a single dataset. It improves data quality by adding new variables, creates a richer dataset for better analysis.
+It allows you to combine information from various sources, providing a more holistic view of your data subject.
 
+**Data Blending**
+
+- it combines multiple sources of data into a single dataset at the reporting layer.
+
+Data blending combines data from multiple sources at the reporting layer (e.g. visualization tools). Done on-demand by analysts for specific needs. Blended data doesn't persist - exists only for the current analysis. Requires some understanding of how data maps across systems.
+
+ETL process scheduled process managed by IT. It extracts data from source systems, transforms it and loads it into a data warehouse. Blended data persists in the data warehouse. 
+
+The difference between the two:
+  * timing - ETL is scheduled, data blending is ad hoc.
+
+  * Persistence - ETL creates a permanent dataset, data blending is temporary.
+
+  * User - ETL is IT-managed, data blending empowers analysts.
+
+Both of them are valuable tools for data analysis. Understanding their strengths and differences helps you choose the right approach for your specific needs.
+
+**Concatenation**
+
+- it is the merging of separate variables into a single variable. It is highly effective technique when dealing with a source system that stores components of a single variable in multiple columns.
+
+The need for concatenation frequently occurs when dealing with date and time. 
+It is useful when generating address information. 
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/b302d845-f221-47fe-873d-a4e627c1d126)
+
+**Data Append**
+
+- it combines multiple data sources with the same structure, resulting in a new dataset containing all rows from the original datasets. When appending data, you save the result as a new dataset for ongoing analysis.
+It creates a new dataset containing all rows from the originals. It increases data volume for analysis. Provides a more comprehensive view of a single subject.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/e3ce159d-baff-415c-9fd6-cd111f8075cb)
+
+**Inputation**
+
+- this is a technique
 
 *Chapter 5:* Data Analytics and Statistics
 
