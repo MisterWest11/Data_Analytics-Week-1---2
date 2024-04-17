@@ -1040,6 +1040,36 @@ A dat outlier is a value that differs significantly from other observations in a
 
 ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/5d685ce4-9e0f-461c-8cc7-4236acf6dc16)
 
+**Specification Mismatch**
+
+a specification describes the target value for a component. A specification mismatch occures when an individual component's characteristics are beyond the range of acceptable values.  it happens when something you have (a component, data) doesn't meet the requirements(specifications) for its use. When data is invalid, it has values that fall outside a given range. On the other hand, a specification mismatch occurs when data does not conform to its destination data type. 
+
+**Data Type Validation**
+
+- it ensure that values in a dataset have a consistent data type.
+
+Data type validation ensures data in a dataset adheres to the data types defined in the database schema.
+This helps maintain data integrity and prevents errors during analysis.
+Common programming languages like SQL, Python, and R have functions to validate data types before loading.
+
+***Data Manipulation Techniques***
+
+**Recoding Data**
+
+This is a technique you can use to map original values for a variable into new values to facilitate analysis. Recoding groups data into multiple categories, creating a categorical variable. A categorical variable is either nominal or ordinal. Nominal variables are any variable with two or more categories where there is no natural order of the categories, like hair color or eye color. Ordinal variables are categories with an inherent rank. Variable values fit into a fixed number of categories, similar to how lookup table work. Recoding is helpful when you have numeric data you want to analyze by category.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/14024eb1-75d5-4c23-833a-ee37a71c5ea2)
+
+**Derived Variables**
+
+- is a new variable resulting from a calculation on an existing variable.
+
+
+**Data Merge**
+
+uses common variable to combine multiple datasets with different structures into a single dataset. Merging data improves data quality by adding new variables to your existing data. Additional variables make for a richer dataset, which positively impacts the quality of your analysis. ETL processes commonly append data while transforming data for use in analytical environments.
+
+
 
 *Chapter 5:* Data Analytics and Statistics
 
