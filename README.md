@@ -1114,7 +1114,19 @@ It creates a new dataset containing all rows from the originals. It increases da
 
 here are a few approaches an analyst can use for imputing values:
 
-    - Remove Missing Data: you can remove rows with missing values without impacting the quality of your overall analysis.
+  - Remove Missing Data: you can remove rows with missing values without impacting the quality of your overall analysis.
+
+  - Replace with Zero: you can replace missing values with a zero. Whether or not it is appropraite to replace missing data with a zero is contextual. Zero is not an appropraite value, as a person's weight should be a positive number.
+
+  - Replace with Overall Average: instead of zero, you can compute the average Weight value for all rows that have data and then replace the missing Weight value with that calculated average.
+
+  - Replace with Most Frequent (Mode):  Alternatively, you can take the most frequently occurring value, called the mode, and use that as the constant.
+
+  - Closest Value Average:  With this approach, you use the values from the rows before and after the missing values. For example, to replace the missing measurements for 2/13/2021 and 2/14/2021, take the values from 2/12/2021 and 2/15/2021 to compute the average.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/48d6a714-ce81-400d-8ba2-a6f71eeeb59a)
+
+
 
 *Chapter 5:* Data Analytics and Statistics
 
