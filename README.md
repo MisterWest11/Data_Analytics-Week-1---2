@@ -974,8 +974,72 @@ Data can come from a variety of sources. An organization may scrape websites or 
 
 Analytical databases store massive amounts of data. Manipulating the entire dataset for analysis is frequently infeasible. To efficiently analyze data, understand that SQL has the power to filter, sort, and aggregate data. When focusing on a particular subject, creating a subset is an ideal approach. Although it is possible to create permanent tables to house subsets, using a temporary table as part of a query is viable for ad hoc analysis. When an analytical query performs poorly, use its execution plan to understand the root cause. It is wise to work with a database administrator to understand the execution plan and ensure that indexes exist where they are needed.
 
-
 *Chapter 4:* Data Quality
+
+In this chapter, we will learn about:
+  * Understanding the challenges of data quality
+
+  * Identifying common reasons for cleansing and profiling datasets.
+
+  * Executing data manipulation techniques.
+
+  * Applying data quality control concepts.
+
+**Data Quality Challenges**
+
+In chapter 3, we discussed: Databases and data acquisition. We said that data warehouse aggregate multiple data sources and provide a platform for conducting analysis. Each data source has its own unique quality issues that need resolution before finding its way into a data warehouse. Whether performing an ETL process, into a new set of data warehouse tables, an analyst needs to examine each data source and resolve any underlying quality issues.
+
+**Duplicate Data**
+
+duplicate data occurs when data representing the same transaction is accidentally duplicated within a system. Humans are primarily responsible for creating the duplicate data. System architects work diligently to prevent duplicate data from being created. 
+
+Best way to prevent duplicate data is to prevent its creation in the first place. One common approach to stopping duplicate data before it gets into a system is a visual warning to alert users. 
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/dcf00f44-1f12-4cc1-b619-0740916643af)
+
+**Redundant Data**
+
+This happens when the same data exists in multiple places within a system. Data redundancy is a function of integrating multiple systems.
+
+Multiple aource systema that perform different business functions and use shared data elements create the conditions for data redundancy. When record changes in one system, there is no guarantee that its new value changes in another system. Since there is no certainty of data synchronization, a data element can have conflicting values across systems. When integrating multiple data sources, dealing with redundant data is a persistent challenge.
+
+There are several ways for resolving redundant data. One approach synchronizes changes to shared data elements between Accounting and Sales systems. technical and political realities can make synchronizing source systems unfeasible.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/3f248cec-8f4e-400b-92aa-795e4b2fe8a0)
+
+
+**Missing Values**
+
+Another issues that impacts data quality is the concept of missing values. Missing values occur when you expect an attribute to contain data but nothing is there. Missing values are also known as null values. A null value is the absence of a value. A null is not a space, blank or other character.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/c5fb5948-798b-4ac1-bfaa-ae521eeb8177)
+
+Null values present several challenges depending on the tools you use to analyze data. If you use the AVG function in SQL to find the numeric average of the data from Figure 4.7, you will get a number because the AVG function excludes null values.
+
+To handle missing values, you first have to check for their existence. SQL offers functions to check for null and functions that can replace a null with a user-specified value.
+
+**Invalid Data**
+
+Invalid data are values outside the valid range for a given attribute. An invaid vlaue violates a business rule instead of having an incorrect data type. You have to understand the context of a system to determine whether or not a value is invalid.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/f0e999fd-7127-4133-aff5-e3374d60cd15)
+
+Invalid values violate business rules, not technical rules. e.g. -99,999 is a valid value, but it is an invalid temperature for a location earth. 
+
+Text data is more complex. One thing that leads to invalid character data is an absence of referential integrity within a database. If two tables have a relationship but no foreighn keys, the conditions for invalid character data exists. 
+
+**Nonparametric Data**
+
+- it is data collected from categorical variables. The categories indicate the differentation and sometimes they have a rank order associated with them.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/a686c535-9fbc-4f20-ac52-98f5a584bcd6)
+
+**Data Outliers**
+
+A dat outlier is a value that differs significantly from other observations in a dataset. With outliers, you need to understand wht they exist and whether they are valid in the context of your analysis. Outliers exist regardless of data type.
+
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/5d685ce4-9e0f-461c-8cc7-4236acf6dc16)
+
 
 *Chapter 5:* Data Analytics and Statistics
 
