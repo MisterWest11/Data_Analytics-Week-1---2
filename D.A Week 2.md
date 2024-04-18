@@ -739,4 +739,24 @@ While min-max normalization is straightforward, it's important to be aware of it
 
 In conclusion, data manipulation plays a crucial role in dealing with composite and distributed data structures, as well as improving data quality through string manipulation techniques. These actions ensure that your data is well-organized, consistent, and ready for meaningful analysis.
 
+# Chapter 4: Managing Data Quality
+
+**Circumstances to Check for Quality**
+
+There are numerous circumstances where it is appropriate to implement data quality control checks. Errors during data acquisition, transformation, manipulation and visualization all contribute to degrading data quality.
+
+**Automated Validation**
+
+* Preventing Errors from Various Sources: Data can come various sources, including automated systems and human interaction. Both are susceptible to errors, so data validation is crucial.
+
+* Mapping and Data Types: before automation, it's essential to understand how source data fields map to their corresponding database columns. Furthermore, data type compatibility needs to be ensured. Automating data type validation can prevent errors caused by such mismatches.
+
+* Verifying Completeness: Data validation goes beyond data types. Automating checks for the expected number of data points can be valuable. This prevents missing data from affecting your analytics.
+
+in essence, automated data validation acts as a safeguard against errors at the data entry point. By ensuring data adheres to defined formats and expectations, you can improve data quality and prevent downstream issues in your analytics movement.
+
+**Data Quality Dimensions**
+
+It is essential to consider multiple attributes of data when considering its quality. Six dimensions to take into account when assessing data quality are accuracy, completeness, consistency, timeless, uniqueness and validity.
+
 *Chapter 5:* Data Analytics and Statistics
