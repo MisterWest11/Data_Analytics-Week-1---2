@@ -484,16 +484,3 @@ In simpler terms, imagine data points arranged neatly in rows and columns like a
 
 
 In essence, the right file format depends on the data structure and complexity. CSV is a simple and common option, while XML and JSON provide more features for complex data. JSON is becoming increasingly popular due to its efficiency.
-
-
-# Module 3: Data Analysis and Reporting
-
-*Chapter 6:* Data Analytics Tools
-
-*Chapter 7:* Data Visualization with Reports and Dashboards
-
-# Module 4: Data Governance
-
-*Chapter 8:* Defining Data Governance
-
-
