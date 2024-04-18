@@ -1208,13 +1208,22 @@ While min-max normalization is straightforward, it's important to be aware of it
 
 * Composite Data Issues:  A composite data issue arises when a single column contains data points that represent multiple attributes combined into one string. This can hinder analysis because each data point isn't atomic (indivisible).
 
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/2fb14e2a-ce4d-4fa8-ab36-180981bf6865)
+
+
 * Splitting Composite Columns:  As in Figure 4.34, string parsing techniques can be used to break down composite columns into separate columns, each representing a distinct attribute. This improves data organization and facilitates analysis.
 
 * Distributed Data Issues:  Distributed data occurs when data that logically belongs together is spread across multiple columns. This can make analysis cumbersome.
 
+![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/2af3b630-9855-4ac5-8e2b-8bbcd97a7589)
+
+
 * Combining Distributed Columns:  String concatenation (Figure 4.35) is a technique for combining separate columns into a single column when the data points are related. This can simplify analysis.
 
 * String Manipulation for Quality:  String manipulation techniques can also be used to improve data quality.  For instance, Figure 4.36 demonstrates how to address inconsistencies in state abbreviations.
+
+  ![image](https://github.com/MisterWest11/Data_Analytics-Week-1---2/assets/152319557/fdc19010-b6a1-487b-ad9c-cfc196700a40)
+
 
 In conclusion, data manipulation plays a crucial role in dealing with composite and distributed data structures, as well as improving data quality through string manipulation techniques. These actions ensure that your data is well-organized, consistent, and ready for meaningful analysis.
 
